@@ -18,5 +18,10 @@ public class MultipleLanguage extends MultipleFrontend implements MultipleBacken
         // Call the inherited method of MultipleFrontend class
         java.frontendMethod(java.language);
     }
+
+	private void frontendMethod(String language2) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 

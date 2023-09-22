@@ -1,14 +1,16 @@
 package com.coreconcepts.finall;
 
-public class FinalMethodMain extends FinalMethod1{
+public class FinalExtends extends FinalBike{
 	
-	void run(){
+	void run() {
 		System.out.println("Running safely with 100kmph");
 	}
 	
 	public static void main(String[] args) {
-		FinalMethodMain f1 = new FinalMethodMain();
+		
+		FinalExtends f1 = new FinalExtends();
 		f1.run();
+		
 	}
 
 }
